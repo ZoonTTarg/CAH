@@ -1,0 +1,44 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+ .page{
+ 	margin:0px;
+    background-repeat: no-repeat;
+    background-size: 210mm 297mm;
+    padding:5mm 5mm 42mm 5mm;
+    height:250mm;
+    width:200mm;
+    border:0px solid orange;
+    border-collapse: collapse;
+ }
+
+  .pageNOIR{
+    background-image: url("../images/fond noir.png");
+    background-color: #000000;
+ }
+
+   .pageBLANC{
+    background-image: url("../images/fond blanc.png");
+    background-color: #FFFFFF;
+ }
+
+ .case{
+ 	float:left;
+ 	display:inline-block;
+ 	width:40mm;
+ 	height:40mm;
+ 	margin:0;
+ 	padding:5mm 5mm 5mm 5mm;
+ 	border:0px solid red;
+ }
+
+ .caseNOIR{
+ 	color:#FFFFFF;
+ }
+
+
+ .caseBLANC{
+ 	color:#000000;
+ 	font-weight: bold;
+ }
